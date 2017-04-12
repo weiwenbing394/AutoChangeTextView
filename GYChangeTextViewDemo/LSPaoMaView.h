@@ -8,15 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-#define TEXTCOLOR [UIColor redColor]
-#define TEXTFONTSIZE 14
+#define TEXTCOLOR [UIColor colorWithHexString:@"ffdace"]
 
 @interface LSPaoMaView : UIView
 
-- (instancetype)initWithFrame:(CGRect)frame title:(NSString*)title;
-
-- (void)start;//开始跑马
-
-- (void)stop;//停止跑马
+//显示的文字
+@property (nonatomic,copy) NSString *showTitle;
+//停止跑马
+- (void)stop;
 
 @end

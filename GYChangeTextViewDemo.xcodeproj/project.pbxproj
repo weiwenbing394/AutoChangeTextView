@@ -13,8 +13,9 @@
 		04837D531D1003540009D613 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04837D511D1003540009D613 /* Main.storyboard */; };
 		04837D551D1003540009D613 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04837D541D1003540009D613 /* Assets.xcassets */; };
 		04837D581D1003540009D613 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04837D561D1003540009D613 /* LaunchScreen.storyboard */; };
+		51102F181E72416C0089D4B8 /* sViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51102F171E72416C0089D4B8 /* sViewController.m */; };
+		5123D8C71E9DFE6300FE90C8 /* LSPaoMaView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5123D8C61E9DFE6300FE90C8 /* LSPaoMaView.m */; };
 		514EBEA71E52AD1B00EEEBAC /* GYChangeTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 514EBEA61E52AD1B00EEEBAC /* GYChangeTextView.m */; };
-		514EBEAB1E52DEB600EEEBAC /* LSPaoMaView.m in Sources */ = {isa = PBXBuildFile; fileRef = 514EBEAA1E52DEB600EEEBAC /* LSPaoMaView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,10 +29,12 @@
 		04837D541D1003540009D613 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04837D571D1003540009D613 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04837D591D1003540009D613 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51102F161E72416C0089D4B8 /* sViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sViewController.h; sourceTree = "<group>"; };
+		51102F171E72416C0089D4B8 /* sViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sViewController.m; sourceTree = "<group>"; };
+		5123D8C51E9DFE6300FE90C8 /* LSPaoMaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSPaoMaView.h; sourceTree = "<group>"; };
+		5123D8C61E9DFE6300FE90C8 /* LSPaoMaView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSPaoMaView.m; sourceTree = "<group>"; };
 		514EBEA51E52AD1B00EEEBAC /* GYChangeTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYChangeTextView.h; sourceTree = "<group>"; };
 		514EBEA61E52AD1B00EEEBAC /* GYChangeTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GYChangeTextView.m; sourceTree = "<group>"; };
-		514EBEA91E52DEB600EEEBAC /* LSPaoMaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSPaoMaView.h; sourceTree = "<group>"; };
-		514EBEAA1E52DEB600EEEBAC /* LSPaoMaView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSPaoMaView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +77,8 @@
 				04837D561D1003540009D613 /* LaunchScreen.storyboard */,
 				04837D591D1003540009D613 /* Info.plist */,
 				04837D481D1003540009D613 /* Supporting Files */,
+				51102F161E72416C0089D4B8 /* sViewController.h */,
+				51102F171E72416C0089D4B8 /* sViewController.m */,
 			);
 			path = GYChangeTextViewDemo;
 			sourceTree = "<group>";
@@ -89,8 +94,8 @@
 		514EBEA81E52AD2800EEEBAC /* AutoChangeView */ = {
 			isa = PBXGroup;
 			children = (
-				514EBEA91E52DEB600EEEBAC /* LSPaoMaView.h */,
-				514EBEAA1E52DEB600EEEBAC /* LSPaoMaView.m */,
+				5123D8C51E9DFE6300FE90C8 /* LSPaoMaView.h */,
+				5123D8C61E9DFE6300FE90C8 /* LSPaoMaView.m */,
 				514EBEA51E52AD1B00EEEBAC /* GYChangeTextView.h */,
 				514EBEA61E52AD1B00EEEBAC /* GYChangeTextView.m */,
 			);
@@ -167,9 +172,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5123D8C71E9DFE6300FE90C8 /* LSPaoMaView.m in Sources */,
 				04837D501D1003540009D613 /* ViewController.m in Sources */,
 				04837D4D1D1003540009D613 /* AppDelegate.m in Sources */,
-				514EBEAB1E52DEB600EEEBAC /* LSPaoMaView.m in Sources */,
+				51102F181E72416C0089D4B8 /* sViewController.m in Sources */,
 				04837D4A1D1003540009D613 /* main.m in Sources */,
 				514EBEA71E52AD1B00EEEBAC /* GYChangeTextView.m in Sources */,
 			);
